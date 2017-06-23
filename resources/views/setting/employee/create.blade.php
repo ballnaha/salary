@@ -36,6 +36,7 @@
 
     <form class="form-horizontal" role="form" method="POST" action="{{ url('setting/employee') }}" data-parsley-validate="" enctype="multipart/form-data" id="myform">
         {{ csrf_field() }}
+        <input type="hidden" readonly="readonly" name="priority" value="{{$counts}}" class="form-control priority">
         <div class="row">
             <div class="col-lg-3">
                 <div class="form-group">
@@ -111,18 +112,6 @@
 
                         </div>
                     </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <label for="" class="control-label col-lg-4">ลำดับ</label>
-                            <div class="col-lg-8">
-                                <input type="text" readonly="readonly" name="priority" value="{{$counts}}" class="form-control priority">
-
-                            </div>
-
-                        </div>
-                    </div>
-
                 </div>
                 <div class="form-group">
                     <div class="row">
