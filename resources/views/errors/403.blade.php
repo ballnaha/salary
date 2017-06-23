@@ -23,7 +23,7 @@
                         <img src="{{ url('images/psc300x300.png')}}" class="img-responsive center-block" width="150" alt="">403
                     </div>
                     <div style="text-align: center; color:#f3f3f3;"><h1>Access Denied / Forbidden</h1></div>
-                    <div style="text-align: center;font-family: 'Prompt',sans-serif;color:#f3f3f3;"><h4>คุณไม่มีสิทธิ์เข้าถึงหน้านี้</h4></div>
+                    <div style="text-align: center;font-family: 'Prompt',sans-serif;color:#f3f3f3;"><h4>คุณไม่มีสิทธิ์เข้าถึงหน้านี้ หากมีข้อสงสัยรบกวนติดต่อฝ่าย IT</h4></div>
                     <div style="text-align: center;font-size:18px;"><a href="{{url('dashboard')}}" class="btn btn-lg btn-primary">BACK</a></div>
                 </div>
             </div>

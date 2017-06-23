@@ -51,4 +51,9 @@ class LoginController extends Controller
         return ['username' => $request->{$this->username()}, 'password' => $request->password, 'status' => 1];
     }
 
+    public function username()
+    {
+        return 'username';
+    }
+
 }

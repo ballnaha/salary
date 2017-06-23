@@ -179,20 +179,7 @@
                         </div>                        
                     </div>
                 </div>
-<br><br>
-                <div class="form-group">
-                    <div class="row">
-                        <div class="col-lg-12 text-right" style="font-size:11px; color:red;">
-                            หมายเหตุ : 
-                            MAIL_DRIVER=smtp ,
-                            MAIL_HOST=192.168.11.16 ,
-                            MAIL_PORT=25 ,
-                            MAIL_USERNAME=null ,
-                            MAIL_PASSWORD=null ,
-                            MAIL_ENCRYPTION=null
-                        </div>
-                    </div>          
-                </div>
+
 
             </div>
         </div>
