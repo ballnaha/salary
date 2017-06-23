@@ -1,0 +1,185 @@
+.validate-message {
+    color: red;
+    font-size: 12px;
+}
+
+input.parsley-error,
+.parsley-error {
+    /*color: #E35B5A !important;*/
+    /*background-color: #F2DEDE !important;*/
+    border: 1px solid #E43A45 !important;
+}
+
+input.parsley-success,
+.parsley-success {
+    border: 1px solid #1BBC9B !important;
+}
+
+.center-cropped {
+    width: 120px;
+    height: 90px;
+    overflow: hidden;
+}
+
+.center-cropped img {
+    /* width: 160px;
+height: 120px;
+margin: -55px 0 0 -80px; */
+    width: 100%;
+    height: auto;
+}
+
+table.dataTable tbody td.photo {
+    padding: 5px 5px 0px 5px !important;
+}
+.select2font {
+    font-family: 'Prompt',sans-serif !important;
+}
+.portlet.light.bordered.customheight2 {
+    min-height: 430px;
+}
+.portlet.light.bordered.customheight1 {
+    min-height: 900px;
+}
+.lockscreen {
+    pointer-events: none; 
+    opacity: 0.7;
+}
+.mt-element-step .step-line .mt-step-number {
+    font-size: 20px !important;
+    padding: 19px 9px !important;
+    height: 70px !important;
+    width: 70px !important;
+}
+
+/*.mt-element-step .step-line .active .mt-step-content,
+.mt-element-step .step-line .active .mt-step-title {
+    color: #c49f47!important;
+}
+
+.mt-element-step .step-line .active .mt-step-number {
+    color: #c49f47!important;
+    border-color: #c49f47!important;
+}
+.mt-element-step .step-line .active .mt-step-title:after, .mt-element-step .step-line .active .mt-step-title:before {
+    background-color: #c49f47;
+}*/
+
+.mt-element-step .step-background-thin .active {
+    background-color: #c49f47!important;
+}
+.mt-element-step .step-background-thin .active .mt-step-number {
+    color: #b78100!important;
+}
+.mt-element-step .step-background-thin .mt-step-number {
+    font-size: 80px !important;
+}
+.mt-element-step .step-background-thin .mt-step-title {
+    padding-right: 50% !important;
+
+}
+.mt-element-step .step-background-thin .mt-step-col {
+    padding-top: 30px !important;
+}
+.mt-element-step .step-background-thin .mt-step-content {
+    padding-right: 50% !important;
+
+}
+.border-green {
+    border-color: #22ad73!important;
+}
+.label-warning , .label-danger , .label-success {
+    color:#000 !important;
+    vertical-align: -webkit-baseline-middle !important;
+}
+.label-success {
+    background-color: #26C281 !important;
+}
+.progress-bar-success {
+    background-color: #26C281 !important;
+}
+.progress-bar-warning {
+    background-color: #b78100 !important;
+}
+.progress-bar-warning-dashboard {
+    background-color: #F3C200 !important;
+}
+.progress-bar-danger-dashboard {
+    background-color: #D91E18 !important;
+}
+.progress {
+    margin-bottom:0 !important;
+}
+.status-title {
+    font-size: 13px;
+    font-weight: bold;
+}
+.line-dashed {
+
+    border-bottom:1px dashed #333 !important;
+}
+.btn-success {
+    background-color: #26C281 !important;
+}
+.btn-danger {
+    background-color: #D91E18 !important;
+}
+.portlet {
+    margin-bottom: 15px !important;
+}
+.progress {
+    height: 30px !important;
+}
+.progress-bar {
+    line-height: 30px !important;
+}
+<style type="text/css">
+.navbar-custom-menu>.navbar-nav>li>.dropdown-menu {
+    position: absolute;
+    right: 0;
+    left: auto;
+}
+.navbar-nav>.user-menu>.dropdown-menu, .navbar-nav>.user-menu>.dropdown-menu>.user-body {
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.dropdown-menu.dropdown-menu-default {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    padding: 1px 0 0 0;
+    border-top-width: 0;
+    width: 280px !important;
+
+}
+.dropdown-menu>li.user-header {
+    height: 205px;
+    padding: 10px;
+    text-align: center;
+    background-color: #3c8dbc;
+}  
+.user-menu>.dropdown-menu>.user-footer {
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+.dropdown-menu>li.user-header>p {
+    z-index: 5;
+    color: #fff;
+    color: rgba(255,255,255,0.8);
+    font-size: 17px;
+    margin-top: 10px;
+}
+.dropdown-menu>.user-body {
+    padding: 15px;
+    border-bottom: 1px solid #f4f4f4;
+    border-top: 1px solid #dddddd;
+}       
+.dropdown-menu>li.user-header>img {
+    z-index: 5;
+    height: 120px;
+    width: 120px;
+    border: 3px solid;
+    border-color: transparent;
+    border-color: rgba(255,255,255,0.2);
+}
+</style>
+
