@@ -21,10 +21,10 @@
 @endsection 
 @section('content-body')
 <div class="row">
-    <div class="col-lg-1 col-xs-12">
+    <div class="col-lg-2">
         <a href="{{url('setting/employee/create')}}" class="btn btn-primary"><i class="fa fa-plus"></i> เพิ่มเจ้าหน้าที่</a>
     </div>
-    <div class="col-lg-1 col-xs-12">
+    <div class="col-lg-2">
         <a href="{{url('setting/employee/sort')}}" class="btn btn-primary"><i class="fa fa-bars"></i> เรียงลำดับเจ้าหน้าที่</a>
     </div>
     <div class="col-lg-6 col-xs-6">

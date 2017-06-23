@@ -35,6 +35,7 @@
     <h3 class="form-section">ทั่วไป</h3>
 
     <form class="form-horizontal" role="form" method="POST" action="{{ url('setting/employee') }}/{{$employees->id}}/edit" data-parsley-validate="" enctype="multipart/form-data" id="myform">
+    <input type="hidden" readonly="readonly" name="priority" value="{{$employees->priority}}" class="form-control priority">
         {{ csrf_field() }}
         <div class="row">
             <div class="col-lg-3">
@@ -100,17 +101,6 @@
                                 <input type="text" name="lastname" value="{{$employees->lastname}}" class="form-control lastname" required data-parsley-required-message="กรอกนามสกุล" data-parsley-trigger="focusout" placeholder="นามสกุล" data-parsley-errors-container="#lastname-required" >
 
                                 <div id="lastname-required" class="validate-message"></div>
-                            </div>
-
-                        </div>
-                    </div>
-<br>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <label for="" class="control-label col-lg-4">ลำดับ</label>
-                            <div class="col-lg-8">
-                                <input type="text" readonly="readonly" name="priority" value="{{$employees->priority}}" class="form-control priority">
-
                             </div>
 
                         </div>
