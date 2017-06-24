@@ -225,6 +225,16 @@
         });
 
         });
+
+        $('.startDate').datepicker({
+        todayBtn: "linked",
+        language: "th",
+        daysOfWeekDisabled: "0",
+        autoclose: true,
+        todayHighlight: true,
+        clearBtn: true,
+        /*datesDisabled: ['2016/12/29','2016/12/30','2016/12/31','2017/01/02','2017/01/27','2017/01/28','2017/04/12','2017/04/13','2017/04/14','2017/04/15','2017/05/01','2017/07/08','2017/09/12','2017/10/23','2017/12/05','2017/12/30'],*/
+        });
         </script>   
 
         <script type = "text/javascript">

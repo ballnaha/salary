@@ -28,7 +28,7 @@ public function __construct()
 
     public function sort()
     {
-        $sorts = DB::table('employee')->orderBy('priority','asc')->get();
+        $sorts = DB::table('employee')->orderBy('priority','asc')->orderBy('id','asc')->get();
         $counts = DB::table('employee')->count();
         return view('setting.employee.sort',['sorts'=>$sorts , 'counts'=>$counts]);
     }

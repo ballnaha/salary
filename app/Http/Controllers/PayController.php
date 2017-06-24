@@ -3,6 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Auth;
+use DB;
+use App\User;
+use App\Pay;
+use Hash;
+use App\StatusMaster;
+use Image;
+use Illuminate\Support\Facades\Input;
+use \File;
 
 class PayController extends Controller
 {
@@ -26,6 +35,9 @@ class PayController extends Controller
     public function create()
     {
         //
+        $employees = DB::table('employee')->where('status','1')->orderBy('priority','asc')->get();
+
+        return view('main.pay.create',['employees'=>$employees]);
     }
 
     /**
@@ -37,6 +49,23 @@ class PayController extends Controller
     public function store(Request $request)
     {
         //
+        $pays                     = new Pay;
+        $pays->startdate          = $request->startdate;
+        $pays->pateint1           = $request->pateint1;
+        $pays->pateint2           = $request->pateint2;
+        $pays->pateint3           = $request->pateint3;
+        $pays->emp_id             = $request->emp_id;
+        $pays->money1             = $request->money1;
+        $pays->money2             = $request->money2;
+        $pays->money3             = $request->money3;
+        $pays->totalmoney1        = $request->totalmoney1;
+        $pays->totalmoney2        = $request->totalmoney2;
+        $pays->totalmoney3        = $request->totalmoney3; 
+
+       
+        $pays->save();
+        $request->session()->flash('status', 'บันทึกข้อมูลเรียบร้อย');
+        return back();
     }
 
     /**
